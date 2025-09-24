@@ -1,0 +1,15 @@
+C:\Users\ADMIN\Downloads\DPM225416\DPM225416_LyDuc_Patern03_FactoryMethod\bin\Debug\net8.0\DPM225416_LyDuc_Patern03_FactoryMethod.exe
+C:\Users\ADMIN\Downloads\DPM225416\DPM225416_LyDuc_Patern03_FactoryMethod\bin\Debug\net8.0\DPM225416_LyDuc_Patern03_FactoryMethod.deps.json
+C:\Users\ADMIN\Downloads\DPM225416\DPM225416_LyDuc_Patern03_FactoryMethod\bin\Debug\net8.0\DPM225416_LyDuc_Patern03_FactoryMethod.runtimeconfig.json
+C:\Users\ADMIN\Downloads\DPM225416\DPM225416_LyDuc_Patern03_FactoryMethod\bin\Debug\net8.0\DPM225416_LyDuc_Patern03_FactoryMethod.dll
+C:\Users\ADMIN\Downloads\DPM225416\DPM225416_LyDuc_Patern03_FactoryMethod\bin\Debug\net8.0\DPM225416_LyDuc_Patern03_FactoryMethod.pdb
+C:\Users\ADMIN\Downloads\DPM225416\DPM225416_LyDuc_Patern03_FactoryMethod\obj\Debug\net8.0\DPM225416_LyDuc_Patern03_FactoryMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Downloads\DPM225416\DPM225416_LyDuc_Patern03_FactoryMethod\obj\Debug\net8.0\DPM225416_LyDuc_Patern03_FactoryMethod.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Downloads\DPM225416\DPM225416_LyDuc_Patern03_FactoryMethod\obj\Debug\net8.0\DPM225416_LyDuc_Patern03_FactoryMethod.AssemblyInfo.cs
+C:\Users\ADMIN\Downloads\DPM225416\DPM225416_LyDuc_Patern03_FactoryMethod\obj\Debug\net8.0\DPM225416_LyDuc_Patern03_FactoryMethod.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Downloads\DPM225416\DPM225416_LyDuc_Patern03_FactoryMethod\obj\Debug\net8.0\DPM225416_LyDuc_Patern03_FactoryMethod.sourcelink.json
+C:\Users\ADMIN\Downloads\DPM225416\DPM225416_LyDuc_Patern03_FactoryMethod\obj\Debug\net8.0\DPM225416_LyDuc_Patern03_FactoryMethod.dll
+C:\Users\ADMIN\Downloads\DPM225416\DPM225416_LyDuc_Patern03_FactoryMethod\obj\Debug\net8.0\refint\DPM225416_LyDuc_Patern03_FactoryMethod.dll
+C:\Users\ADMIN\Downloads\DPM225416\DPM225416_LyDuc_Patern03_FactoryMethod\obj\Debug\net8.0\DPM225416_LyDuc_Patern03_FactoryMethod.pdb
+C:\Users\ADMIN\Downloads\DPM225416\DPM225416_LyDuc_Patern03_FactoryMethod\obj\Debug\net8.0\DPM225416_LyDuc_Patern03_FactoryMethod.genruntimeconfig.cache
+C:\Users\ADMIN\Downloads\DPM225416\DPM225416_LyDuc_Patern03_FactoryMethod\obj\Debug\net8.0\ref\DPM225416_LyDuc_Patern03_FactoryMethod.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DPM225416_LyDuc_Real03_FactoryMethod/1.0.0": {
+        "runtime": {
+          "DPM225416_LyDuc_Real03_FactoryMethod.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DPM225416_LyDuc_Real03_FactoryMethod/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
