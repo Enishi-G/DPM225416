@@ -1,0 +1,60 @@
+﻿namespace Bridge.NetOptimized;
+
+using static System.Console;
+
+/// <summary>
+/// The 'ConcreteImplementor' class
+/// </summary>
+public class CustomersData : IDataObject<string>
+{
+    private readonly string city;
+    private readonly List<string> customers;
+    private int current = 0;
+
+    // Constructor
+    public CustomersData(string city)
+    {
+        this.city = city;
+
+        // Simulate loading from database
+        customers =
+              ["Jim Jones", "Samual Jackson", "Allan Good",
+                "Ann Stills", "Lisa Giolani" ];
+    }
+
+    public void NextRecord()
+    {
+        if (current <= customers.Count - 1)
+        {
+            current++;
+        }
+    }
+
+    public void PriorRecord()
+    {
+        if (current > 0)
+        {
+            current--;
+        }
+    }
+
+    public void AddRecord(string customer) =>
+        customers.Add(customer);
+
+    public void DeleteRecord(string customer) =>
+        customers.Remove(customer);
+
+    public string GetCurrentRecord() =>
+        customers[current];
+
+    public void ShowRecord() =>
+        WriteLine(customers[current]);
+
+    public void ShowAllRecords()
+    {
+        WriteLine("Customer Group: " + city);
+        customers.ForEach(customer =>
+            WriteLine(" " + customer));
+    }
+}
+
