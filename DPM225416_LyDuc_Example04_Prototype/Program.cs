@@ -1,29 +1,33 @@
-﻿using System;
+﻿namespace Prototype.NetOptimized;
 
-namespace Prototype.Structural
+using static System.Console;
+
+/// <summary>
+/// Prototype Design Pattern
+/// </summary>
+public class Program
 {
-    /// <summary>
-    /// Prototype Design Pattern
-    /// </summary>
-
-    public class Program
+    public static void Main()
     {
-        public static void Main(string[] args)
-        {
-            // Create two instances and clone each
+        var manager = new ColorManager();
 
-            ConcretePrototype1 p1 = new ConcretePrototype1("I");
-            ConcretePrototype1 c1 = (ConcretePrototype1)p1.Clone();
-            Console.WriteLine("Cloned: {0}", c1.Id);
+        // Initialize with standard colors
+        manager[ColorType.Red] = new Color { Red = 255, Blue = 0, Green = 0 };
+        manager[ColorType.Green] = new Color { Red = 0, Blue = 255, Green = 0 };
+        manager[ColorType.Blue] = new Color { Red = 0, Blue = 0, Green = 255 };
 
-            ConcretePrototype2 p2 = new ConcretePrototype2("II");
-            ConcretePrototype2 c2 = (ConcretePrototype2)p2.Clone();
-            Console.WriteLine("Cloned: {0}", c2.Id);
+        // User adds personalized colors
+        manager[ColorType.Angry] = new Color { Red = 255, Blue = 54, Green = 0 };
+        manager[ColorType.Peace] = new Color { Red = 128, Blue = 211, Green = 128 };
+        manager[ColorType.Flame] = new Color { Red = 211, Blue = 34, Green = 20 };
 
-            // Wait for user
+        // User uses selected colors
+        _ = manager[ColorType.Red].Clone();
+        _ = manager[ColorType.Peace].Clone();
+        _ = manager[ColorType.Flame].Clone(false); // Deep Copy
 
-            Console.ReadKey();
-        }
+        // Wait for user
+        ReadKey();
     }
 }
 
